@@ -1,10 +1,10 @@
 package my.testproject;
 
-public class Tester extends Employee {
+public class Programmer extends Employee {
 
-    private String jobType = "Tester";
+    private String jobType = "Programmer";
 
-    protected Tester(int id, String name){
+    protected Programmer(int id, String name){
         super(id, name);
     }
 
